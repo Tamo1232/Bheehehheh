@@ -46,7 +46,7 @@ jano6.on("ready", () => {
 
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`خەمۆکی🖤`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
@@ -221,7 +221,7 @@ if (message.content === 'owo') {
 });
 
 
-jano.login("");
+jano.login("ODM1NjI5MTc2NjM0ODY3NzMy.GqbFIx.EDOOWmaue1UrVIlqU6sW7a99lWXcwmrtNuUplo");
 jano2.login("");
 jano3.login("");
 jano4.login("");
